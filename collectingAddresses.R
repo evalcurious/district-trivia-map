@@ -37,4 +37,4 @@ for (i in 1:nrow(locations)) {
   
 }
 
-# write.csv(output, "locations.csv")
+# write.csv(output, "locations.csv", row.names=FALSE)
