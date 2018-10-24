@@ -7,7 +7,7 @@ require(jsonlite)
 
 locations <- read.csv(paste0(getwd(),"//locations.csv"),stringsAsFactors = FALSE)
 
-KEY <- "G6tGs0kIkyOyd13lrXPFAkGDsPA5yp3d"
+KEY <- "random number string provided by MapQuest" #your key goes here
 
 geocode <- function(address,key) {
   x <- gsub(" ", "+", address)
